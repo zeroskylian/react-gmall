@@ -1,0 +1,59 @@
+.container {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+/* #region Header */
+.topbar {
+  background-color: #ececec;
+  height: 30px;
+}
+.topbar .left a {
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+}
+
+.topbar .left span {
+  font-size: 12px;
+}
+.topbar .left .hello {
+  margin-right: 28px;
+}
+.topbar .left .login {
+  padding-right: 10px;
+  border-right: 1px #666 solid;
+  line-height: 10px;
+  font-size: 10px;
+}
+
+.topbar .left .register {
+  padding-left: 10px;
+  font-size: 10px;
+}
+
+.topbar .right {
+  height: 30px;
+  line-height: 30px;
+}
+
+.topbar .right li {
+  display: inline-block;
+}
+
+.topbar .right li a {
+  font-size: 12px;
+  padding: 0px 10px;
+  border-right: 1px #666 solid;
+}
+
+.topbar .right ul li:first-child a {
+  padding-left: 0px;
+}
+
+.topbar .right ul li:last-child a {
+  border-right: 0;
+  padding-right: 0;
+}
+
+/* #endregion */
