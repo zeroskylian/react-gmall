@@ -57,3 +57,30 @@
 }
 
 /* #endregion */
+
+/* #region Search */
+.top-nav {
+  height: 120px;
+  background-color: #ececec;
+}
+.top-nav .right {
+  margin-top: 42px;
+}
+
+.top-nav .searchbar {
+  width: 508px;
+  height: 32px;
+  border: 1px #dd302d solid;
+}
+
+.top-nav .searchBtn {
+  width: 80px;
+  height: 36px;
+  background-color: #dd302d;
+  background-image: url('../assets/images/serch_icon.png');
+  background-repeat: no-repeat;
+  background-position: 28px 6px;
+  vertical-align: top;
+}
+
+/* #endregion */

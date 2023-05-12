@@ -147,3 +147,19 @@ a:link {
 a:visited {
   color: #666;
 }
+
+button {
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+input {
+  background: none;
+  outline: none;
+  border: 0px;
+}
+input:focus {
+  outline: none;
+}
