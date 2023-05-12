@@ -61,7 +61,6 @@
 /* #region Search */
 .top-nav {
   height: 120px;
-  background-color: #ececec;
 }
 .top-nav .right {
   margin-top: 42px;
@@ -83,4 +82,41 @@
   vertical-align: top;
 }
 
+/* #endregion */
+
+/* #region GoodsNav */
+.goods-nav {
+  height: 48px;
+}
+
+.goods-nav .logo {
+  display: inline-block;
+  background-color: #dd302d;
+  font-size: 16px;
+  color: #fff;
+  padding: 0px 48px;
+  line-height: 48px;
+}
+
+.goods-nav ul,
+li {
+  display: inline-block;
+}
+
+.goods-nav li {
+  height: 48px;
+  line-height: 48px;
+}
+.goods-nav li a {
+  padding: 0px 10px;
+  color: #333;
+}
+
+.goods-nav li a:hover {
+  color: #fff;
+}
+
+.goods-nav li:hover {
+  background-color: #dd302d;
+}
 /* #endregion */
