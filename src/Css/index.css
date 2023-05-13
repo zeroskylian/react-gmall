@@ -258,3 +258,20 @@
 }
 
 /* #endregion */
+
+/* #region 秒杀 */
+.spike {
+  margin-top: 10px;
+}
+
+.spike img {
+  height: 190px;
+  margin-left: 10px;
+}
+.spike img:first-child {
+  margin-left: 0px;
+}
+.spike img:nth-child(3) {
+  margin-left: 14px;
+}
+/* #endregion */

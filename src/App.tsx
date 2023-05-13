@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Search from './components/Search';
 import GoodsNav from './components/GoodsNav';
 import Content from './components/Content';
+import Spike from './components/Spike';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Search />
       <GoodsNav />
       <Content />
+      <Spike />
     </div>
   );
 }
