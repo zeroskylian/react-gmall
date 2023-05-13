@@ -5,6 +5,7 @@ import './css/common.css';
 import Header from './components/Header';
 import Search from './components/Search';
 import GoodsNav from './components/GoodsNav';
+import Content from './components/Content';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Search />
       <GoodsNav />
+      <Content />
     </div>
   );
 }

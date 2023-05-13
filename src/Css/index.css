@@ -87,6 +87,7 @@
 /* #region GoodsNav */
 .goods-nav {
   height: 48px;
+  border-bottom: 1px #dd302d solid;
 }
 
 .goods-nav .logo {
@@ -99,8 +100,9 @@
 }
 
 .goods-nav ul,
-li {
+.goods-nav li {
   display: inline-block;
+  color: #fff;
 }
 
 .goods-nav li {
@@ -118,5 +120,109 @@ li {
 
 .goods-nav li:hover {
   background-color: #dd302d;
+}
+/* #endregion */
+
+/* #region Content */
+.content {
+  margin-top: 10px;
+}
+
+/* #endregion */
+
+/* #region Content aside */
+.content .asideNav {
+  background-color: #f4f4f4;
+  width: 190px;
+  position: relative;
+}
+
+.content .asideNav ul {
+  padding: 9px 0px;
+}
+
+.content .asideNav li {
+  height: 27.5px;
+  line-height: 27.5px;
+}
+
+.content .asideNav li a {
+  color: #333333;
+  font-size: 14px;
+  padding-left: 16px;
+}
+.content .asideNav li a:hover {
+  color: #dd302d;
+}
+
+/* #endregion */
+
+/* #region Content aside hover */
+
+.content .aside-hover {
+  position: absolute;
+  background-color: #fff;
+  width: 690px;
+  height: 438px;
+  left: 200px;
+  top: 0px;
+  padding: 10px 0;
+}
+
+.content .aside-hover dl {
+  margin: 0 0 0 20px;
+  height: 36px;
+  line-height: 36px;
+}
+
+.content .aside-hover dd {
+  font-size: 14px;
+  color: #000;
+  width: 70px;
+}
+
+.content .aside-hover dt {
+  font-size: 14px;
+  color: #666;
+}
+.content .aside-hover dl :nth-child(2) {
+  margin-left: 10px;
+}
+
+.content .aside-hover dt a {
+  font-size: 14px;
+  color: #666;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 1px #999 solid;
+}
+
+/* #endregion */
+
+/* #region Content banner */
+.content-banner {
+  background-color: cyan;
+  width: 690px;
+  height: 458px;
+  margin-left: 10px;
+}
+/* #endregion */
+
+/* #region Content News */
+.content-news {
+  width: 290px;
+  height: 158px;
+  background-color: cyan;
+  margin-left: 10px;
+}
+/* #endregion */
+
+/* #region Content Right nav */
+.content-right-nav {
+  width: 290px;
+  height: 290px;
+  background-color: cyan;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 /* #endregion */
