@@ -53,6 +53,7 @@ module.exports = {
     ],
     '@typescript-eslint/no-unused-vars': 'warn',
     'react/jsx-uses-react': 'error',
-    'react/react-in-jsx-scope': 'error'
+    'react/react-in-jsx-scope': 'error',
+    'jsx-a11y/anchor-is-valid': 'off'
   }
 };

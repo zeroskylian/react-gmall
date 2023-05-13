@@ -76,7 +76,7 @@
   width: 80px;
   height: 36px;
   background-color: #dd302d;
-  background-image: url('../assets/images/serch_icon.png');
+  background-image: url('../assets/images/search_icon.png');
   background-repeat: no-repeat;
   background-position: 28px 6px;
   vertical-align: top;
@@ -210,10 +210,41 @@
 
 /* #region Content News */
 .content-news {
-  width: 290px;
+  width: 288px;
   height: 158px;
-  background-color: cyan;
   margin-left: 10px;
+  border: 1px solid #d9d9d9;
+}
+.content-news .top {
+  margin: 5px 14px auto 14px;
+  height: 34px;
+  line-height: 34px;
+}
+
+.content-news .top {
+  color: #000;
+  font-size: 14px;
+  border-bottom: 1px #d9d9d9 solid;
+}
+
+.content-news ul {
+  margin-top: 8px;
+  margin-left: 14px;
+}
+
+.content-news .top a {
+  color: #999;
+  font-size: 12px;
+}
+
+.content-news ul li {
+  padding: 4px 0;
+}
+
+.content-news ul li a {
+  padding: 4px 0;
+  color: #666;
+  font-size: 12px;
 }
 /* #endregion */
 
@@ -225,4 +256,5 @@
   margin-left: 10px;
   margin-top: 10px;
 }
+
 /* #endregion */
