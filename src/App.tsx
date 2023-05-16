@@ -7,6 +7,8 @@ import Search from './components/Search';
 import GoodsNav from './components/GoodsNav';
 import Content from './components/Content';
 import Spike from './components/Spike';
+import GoodsCategory from './components/GoodsCategory';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +18,9 @@ function App() {
       <GoodsNav />
       <Content />
       <Spike />
+      <GoodsCategory />
+      <GoodsCategory />
+      <Footer />
     </div>
   );
 }
