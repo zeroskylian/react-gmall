@@ -1,7 +1,9 @@
 import React from 'react';
 import './css/reset.css';
-import './css/index.css';
+// import './css/index.css';
+import './css/less/index.less';
 import './css/common.css';
+
 import Header from './components/Header';
 import Search from './components/Search';
 import GoodsNav from './components/GoodsNav';
